@@ -10,28 +10,75 @@ a {
 h1 {
     font-size: 80px;
     font-weight: 600;
-    color: #192b59;    
+    letter-spacing: -2.5px;
+    color: #192b59;  
+    line-height: 1.1;
+    max-width: 600px;
+    margin-bottom: 65px;
 }
 .nav {
     font-size: 12px;
     font-weight: 700;
     text-transform: uppercase;    
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+.nav>li {
+    padding: 0 15px;
+}
+.nav_item {
+    color: #6e7ea9;
+}
+.btn_primary {
+     color: #fff;
+     font-size: 12px;
+     letter-spacing: 2.5px;
+     font-weight: 700;
+     text-transform: uppercase;
+     background-color: #1085e4;
+     border: 1px solid #1085e4;
+     padding: 21px 40px;
+     border-radius: 30px;
+}
+.btn_primary:hover {
+    color: #1085e4;
+    background-color: #fff;
+}
+.btn_secondary {
+    color: #7e8bae;
+    font-size: 12px;
+    letter-spacing: 2.5px;
+    font-weight: 700;
+    text-transform: uppercase;
+    background-color: #cbdbe8;
+    border: 1px solid #cbdbe8;
+    padding: 20px 40px;
+    border-radius: 30px;
+}
+.btn_secondary:hover {
+    /*color: #1085e4;*/
+    background-color: #fff;
 }
 .btn_free {
-    color: #fff;
     font-weight: 400;
-    background-color: #1085e4;
-}
+    padding: 20px 56px;
+    letter-spacing: 1.7px;
+    }
+.btn_group a + a {
+        margin-left: 15px;
+    }
 .grid h2 {
     font-size: 40px;
     color: #192b59;
     font-weight: 700;
 }
 span {
-    font-size: 14px;
+    font-size: 14px;sss
     color: #1085e4;
     text-transform: uppercase;
-    display: block;
+    /*display: block;*/
 }
 .grid_item h3 {
     font-size: 20px;
@@ -43,4 +90,10 @@ span {
     font-weight: 600;
     color: #1085e4;
 }
- 
+.list_stat {
+    display: flex;
+    list-style-type: none;
+}
+.list_stat li span {
+    display: block;
+}
